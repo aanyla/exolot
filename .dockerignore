@@ -1,6 +1,6 @@
 .env
 .env.production
-node_modules
+# node_modules
 build
 .dockerignore
 deploy-prod.sh

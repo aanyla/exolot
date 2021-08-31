@@ -16,7 +16,7 @@ docker run \
   --hostname exolot \
   --dns=8.8.8.8 \
   -v ${PWD}:/frontend \
-  -v /frontend/node_modules \
+  -v ${PWD}/node_modules:/frontend/node_modules \
   -p 3000:3000 \
   -e CHOKIDAR_USEPOLLING=true \
   -d exolot
